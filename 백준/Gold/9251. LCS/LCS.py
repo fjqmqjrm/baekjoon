@@ -1,10 +1,6 @@
 # 9251 - LCS
-import sys
-input = sys.stdin.readline
 a = list(input())
-a.pop()
 b = list(input())
-b.pop()
 dp = [[0 for i in range(len(a)+1)]for j in range(len(b)+1)]
 for i in range(len(a)):
     for j in range(len(b)):
